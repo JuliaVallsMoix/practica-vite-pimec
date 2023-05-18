@@ -1,5 +1,6 @@
 
 import './App.css';
+import PackingList from './PackingList';
 import Tarjeta from './tarjeta';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 
       <Tarjeta titulo="Gato" descripcion="Miau!!"/>
       <Tarjeta titulo="Perro" descripcion="Guau!!"/>
+      <PackingList/>
 
     </div>
   )
